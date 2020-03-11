@@ -11,6 +11,7 @@ router.put('/:_id', updateFaq);
 router.delete('/:_id', deleteFaq);
 router.get('/',getAllFaq);
 
+//
 module.exports = router;
 
 function getAllFaq(req,res){
